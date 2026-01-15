@@ -1,129 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Kirill Sundaen</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Kirill Sundaen</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <div class="navbar">
-        <img src="img/logo.svg" alt="logo">
-        <nav class="navigation">
-            <ul class="nav-list">
-                <li class="nav-item"><a href="#" class="nav-link active">Главная</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Проекты</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Обо мне</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Связаться</a></li>
-            </ul>
-        </nav>
-    </div>
-    <!-- ? -->
-        <!-- <div class="header-links">
-            <a href="#">
-                <img src="img/icons/download.svg" alt="download-icon" class="cv-icon">
-                <span class="cv-text">Скачать резюме</span>
-            </a> -->
-        <!-- </div> -->
-        <!-- /.header-links -->
-        <!-- </div> -->
-    <!-- /.header-text -->
-    <!-- </header> -->
-    <!-- /header -->
-
-    <!-- portfolio -->
-    <section class="portfolio">
-        <div class="container">
-            <h2 class="section-heading">Последние проекты</h2>
-            <div class="cards">
-                <div class="card">
-                    <img src="img/portfolio/image_01.png" alt="Мобильное приложение" class="card-image">
-                    <div class="card-text-wrapper">
-                        <h3 class="card-title">Мобильное приложение</h3>
-                        <ul class="tags">
-                            <li class="tags-iten"><a href="#" class="tag">HTML</a></li>
-                            <li class="tags-iten"><a href="#" class="tag">CSS</a></li>
-                            <li class="tags-iten"><a href="#" class="tag">JavaScript</a></li>
-                            <li class="tags-iten"><a href="#" class="tag">Git</a></li>
-                            <li class="tags-iten"><a href="#" class="tag">Vitejs</a></li>
-                        </ul>
-                        <p class="card-text">
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img src="img/portfolio/image_02.png" alt="Одностраничный промо-сайт" class="card-image">
-                    <div class="card-text-wrapper">
-                        <h3 class="card-title">Одностраничный промо-сайт</h3>
-                        <ul class="tags">
-                            <li class="tags-iten"><a href="#" class="tag">HTML</a></li>
-                            <li class="tags-iten"><a href="#" class="tag">CSS</a></li>
-                        </ul>
-                        <p class="card-text">
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="developer container">
-        <img src="img/my_photo.jpg" alt="Kirill" class="developer-photo">
-        <div class="developer-about">
-            <span class="developer-hello">Рад вас видеть</span>
-            <h2 class="developer-title">Я Кирилл Сундаен</h2>
-            <p class="developer-text">Я разрабатываю сайты для людей и компаний. Делаю всё сам: составляю прототип, дизайн-макет, пишу код.</p>
-            <span class="motto"></span>
-            <p class="developer-text">Могу собрать страницу для вашей компании, даже если запускать её нужно уже завтра. Из инструментов есть: 
-Tilda, Webflow, Figma, HTML, CSS, JavaScript и Wordpress</p>
-            <img src="img/sign.png" alt="Подпись: Кирилл Сундаен" class="developer-sign">
-        </div>
-    </section>
-
-    <section class="skills container">
-        <h2 class="skills-title">Работаю с разными языками и инструментами</h2>
-        <ul class="tags">
-            <li class="tags-item"><a href="#" class="tag">HTML</a></li>
-            <li class="tags-item"><a href="#" class="tag">CSS</a></li>
-            <li class="tags-item"><a href="#" class="tag">JavaScript</a></li>
-            <li class="tags-item"><a href="#" class="tag">Wordpress</a></li>
-            <li class="tags-item"><a href="#" class="tag">React.js</a></li>
-            <li class="tags-item"><a href="#" class="tag">Next.js</a></li>
+  <div class="navbar">
+    <img src="img/logo.svg" alt="logo">
+    <nav class="navigation">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#main" class="nav-link active">Главная</a></li>
+        <li class="nav-item"><a href="#portfolio" class="nav-link">Проекты</a></li>
+        <li class="nav-item"><a href="#developer" class="nav-link">Обо мне</a></li>
+        <li class="nav-item"><a href="#feedback" class="nav-link">Связаться</a></li>
+      </ul>
+    </nav>
+  </div>
+  
+  <header class="header container" id="main">
+    <img src="img/memoji.jpg" alt="Kirill Sundaen" class="header-photo">
+    <div class="header-text">
+      <strong class="header-strong">Привет &#127757;</strong>
+      <h1 class="header-heading">
+        <span class="header-primary">Я фронтенд-разработчик</span><br>
+        Меня зовут Кирилл Сундаен<br> и я делаю сайты для людей и компаний
+      </h1>
+  
+      <div class="header-links">
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <img src="img/icons/in.svg" alt="linkedin" class="social-logo">
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <img src="img/icons/gh.svg" alt="github" class="social-logo">
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <img src="img/icons/so.svg" alt="stackoverflow" class="social-logo">
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <img src="img/icons/yt.svg" alt="youtube" class="social-logo">
+            </a>
+          </li>
         </ul>
-    </section>
 
-    <section class="feedback form-container">
-        <h2 class="feedback-title"></h2>
-        <form action="#" class="form">
-            <div class="input-group">
-                <label for="userName" class="input-label">Имя</label>
-                <input id="userName" type="text" class="input">
-            </div>
+        <a href="cv_sundaen.pdf" class="cv-download" download>
+          <img src="img/icons/download.svg" alt="download-icon" class="cv-icon">
+          <span class="cv-text">Скачать резюме</span>
+        </a>
+      </div>
+    </div>
+  </header>
 
-            <div class="input-group">
-                <label for="userEmail" class="input-label">Email</label>
-                <input id="userEmail" type="text" class="input">
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <h2 class="section-heading">Последние проекты</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="img/portfolio/image_01.png" alt="Мобильное приложение" class="card-image">
+          <div class="card-text-wrapper">
+            <h3 class="card-title">Мобильное приложение</h3>
+            <ul class="tags">
+              <li class="tags-iten"><a href="#" class="tag">HTML</a></li>
+              <li class="tags-iten"><a href="#" class="tag">CSS</a></li>
+              <li class="tags-iten"><a href="#" class="tag">JavaScript</a></li>
+              <li class="tags-iten"><a href="#" class="tag">Git</a></li>
+              <li class="tags-iten"><a href="#" class="tag">Vitejs</a></li>
+            </ul>
+            <p class="card-text">
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <div class="card-buttons">
+              <a href="#" class="card-button">
+                <img src="img/icons/code.svg" alt="code icon" class="card-button-icon">
+                <span class="card-button-text">Код</span>
+              </a>
+              <a href="#" class="card-button">
+                <img src="img/icons/check.svg" alt="check icon" class="card-button-icon">
+                <span class="card-button-text">Демо</span>
+              </a>
             </div>
+          </div>
+        </div>
 
-            <div class="input-group">
-                <label for="userMessage" class="input-label">Сообщение</label>
-                <textarea id="userMessage" cols="30" rows="30" class="input textarea"></textarea>
+        <div class="card">
+          <img src="img/portfolio/image_02.png" alt="Одностраничный промо-сайт" class="card-image">
+          <div class="card-text-wrapper">
+            <h3 class="card-title">Одностраничный промо-сайт</h3>
+            <ul class="tags">
+              <li class="tags-iten"><a href="#" class="tag">HTML</a></li>
+              <li class="tags-iten"><a href="#" class="tag">CSS</a></li>
+            </ul>
+            <p class="card-text">
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <div class="card-buttons">
+              <a href="#" class="card-button">
+                <img src="img/icons/code.svg" alt="code icon" class="card-button-icon">
+                <span class="card-button-text">Код</span>
+              </a>
+              <a href="#" class="card-button">
+                <img src="img/icons/check.svg" alt="check icon" class="card-button-icon">
+                <span class="card-button-text">Демо</span>
+              </a>
             </div>
-            
-            <div class="button-group">
-                <button type="submit" class="submit-button">
-                    <img src="img/icons/send.svg" alt="send-icon" class="cv-icon">
-                    <span class="cv-text">Отправить</span>
-                </button>
-            </div>
-        </form>
-    </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="developer container" id="developer">
+    <img src="img/my_photo.jpg" alt="Kirill" class="developer-photo">
+    <div class="developer-about">
+      <span class="developer-hello">Рад вас видеть</span>
+      <h2 class="developer-title">Меня зовут Кирилл Сундаен</h2>
+      <p class="developer-text">Я разрабатываю сайты для людей и компаний. Делаю всё сам: составляю прототип, дизайн-макет, пишу код.</p>
+      <span class="motto"></span>
+      <p class="developer-text">Могу собрать страницу для вашей компании, даже если запускать её нужно уже завтра. Из инструментов есть: 
+Tilda, Webflow, Figma, HTML, CSS, JavaScript и Wordpress</p>
+      <img src="img/sign.png" alt="Подпись: Кирилл Сундаен" class="developer-sign">
+    </div>
+  </section>
+
+  <section class="skills container" id="skills">
+    <h2 class="skills-title">Работаю с разными языками и инструментами</h2>
+    <ul class="tags">
+      <li class="tags-item"><a href="#" class="tag">HTML</a></li>
+      <li class="tags-item"><a href="#" class="tag">CSS</a></li>
+      <li class="tags-item"><a href="#" class="tag">JavaScript</a></li>
+      <li class="tags-item"><a href="#" class="tag">Wordpress</a></li>
+      <li class="tags-item"><a href="#" class="tag">React.js</a></li>
+      <li class="tags-item"><a href="#" class="tag">Next.js</a></li>
+    </ul>
+  </section>
+
+  <section class="feedback" id="feedback">
+    <img src="img/hand.png" alt="hand" class="feedback-hand">
+    <div class="form-container">
+      <h2 class="feedback-title">Готов обсудить ваш проект</h2>
+      <form action="#" class="form">
+        <div class="input-group">
+          <label for="userName" class="input-label">Имя</label>
+          <input id="userName" type="text" class="input">
+        </div>
+        
+        <div class="input-group">
+          <label for="userEmail" class="input-label">Email</label>
+          <input id="userEmail" type="text" class="input">
+        </div>
+        
+        <div class="input-group">
+          <label for="userMessage" class="input-label">Сообщение</label>
+          <textarea id="userMessage" cols="30" rows="30" class="input textarea"></textarea>
+        </div>
+        
+        <div class="button-group">
+          <button type="submit" class="submit-button">
+            <img src="img/icons/send.svg" alt="send-icon" class="cv-icon">
+            <span class="cv-text">Отправить</span>
+          </button>
+        </div>
+      </form>
+    </div>
+  </section>
+  <p class="footer">Сделано с &#128150; в Санкт-Петербурге</p>
 </body>
 </html>
